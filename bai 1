@@ -1,8 +1,9 @@
 class Circle(object):
-      def_init_(self,r):
-         self.redius=r
-         
-       def area(self):
-           return self.darius**2*3.14
-aCircle=Circle(2)           
+    def __init__(self, r):
+       self.radius = r
+
+    def area(self):
+       return self.radius**2*3.14
+
+aCircle = Circle(2)
 print (aCircle.area())
